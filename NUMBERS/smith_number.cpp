@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 bool isComposite(int n)
 {
     int c = 0;
