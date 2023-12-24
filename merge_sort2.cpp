@@ -44,13 +44,13 @@ int main()
     cout << "Enter the number of elements in the array: ";
     cin >> n;
     int arr[n];
-    printf("Enter the elements of the array:\n");
+    cout<< "Enter the elements of the array:\n";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
     mergesort(arr, 0, n - 1);
-    printf("Sorted array:\n");
+    cout<< "Sorted array:\n";
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
