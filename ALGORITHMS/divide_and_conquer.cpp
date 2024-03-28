@@ -21,7 +21,6 @@ int rBinSearch(int arr[], int lb, int ub, int item)
             return rBinSearch(arr, mid + 1, ub, item);
     }
 }
-
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
