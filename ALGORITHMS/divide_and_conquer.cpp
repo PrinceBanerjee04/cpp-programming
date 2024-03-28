@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int rBinSearch(int arr[], int lb, int ub, int item)
 {
     int mid;
