@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     int n,s=0,p=1,d;
