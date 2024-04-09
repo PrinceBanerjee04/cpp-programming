@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
     int n;
@@ -37,5 +38,5 @@ int main()
             max = r;
         }
     cout << "Row with maximum sum : " << max;
-}
+    }
 }
