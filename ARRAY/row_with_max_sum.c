@@ -1,14 +1,39 @@
-int r = 0, max = 0;
-for (i = 0; i < n; i++)
+int main()
 {
-    r = 0;
-    for (j = 0; j < n; j++)
+    int n;
+    cout << "Enter array size :";
+    cin >> n;
+    int a[n][n], arr[n][n], i, j, k = 1;
+    for (i = 0; i < n; i++)
     {
-        r = r + a[i][j];
+            //cout << "Enter element " << k << " : ";
+        for (j = 0; j < n; j++)
+        {
+            k++;
+            cin >> a[i][j];
+        }
     }
-    if (r > max)
+    cout << "ORIGINAL MATRIX" << endl;
+    for (i = 0; i < n; i++)
     {
-        max = r;
+        for (j = 0; j < n; j++)
+        {
+            cout << a[i][j] << " ";
+        }
+        cout << "\n";
     }
+    int r = 0, max = 0;
+    for (i = 0; i < n; i++)
+    {
+        r = 0;
+        for (j = 0; j < n; j++)
+        {
+            r = r + a[i][j];
+        }
+        if (r > max)
+        {
+            max = r;
+        }
     cout << "Row with maximum sum : " << max;
+}
 }
