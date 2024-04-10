@@ -22,8 +22,7 @@ int main()
         }
         cout << "\n";
     }
-}
-int r = 0, max = 0;
+    int r = 0, max = 0;
     for (i = 0; i < n; i++)
     {
         r = 0;
@@ -36,3 +35,4 @@ int r = 0, max = 0;
             max = r;
         }
     }
+}
