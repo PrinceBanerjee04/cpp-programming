@@ -34,6 +34,7 @@ int main()
     cout << "adress of pointer-p " << &p << endl;
     cout << "\n";
 
+    // CHARACTER ARRAY
     char ch[6] = {'a', 'b', 'c', 'd', 'e'};
     cout << ch << endl;
 
