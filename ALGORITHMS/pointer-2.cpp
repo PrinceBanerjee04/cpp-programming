@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     int arr[4] = {23, 122, 41, 67};
