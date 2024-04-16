@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // INTEGER ARRAY
     int arr[4] = {23, 122, 41, 67};
 
     cout << "address of a memory block is " << arr << endl;
