@@ -13,6 +13,7 @@ void printlist(Node *n)
         n = n->next;
     }
 }
+
 int main()
 {
     Node *head = NULL;
