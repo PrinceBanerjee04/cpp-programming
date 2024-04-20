@@ -4,6 +4,7 @@ public:
     int data;
     Node *next;
 };
+
 void printlist(Node *n)
 {
     while (n != NULL)
