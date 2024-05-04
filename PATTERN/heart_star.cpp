@@ -34,4 +34,4 @@ for (i = n; i > 0; i--)
         cout << "\n";
     }
     return 0;
-}*/
+}
