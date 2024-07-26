@@ -18,3 +18,20 @@ void push(Node **head_ref, int new_data)
 
     (*head_ref) = new_node;
 }
+void printList(Node *node)
+{
+    Node *last;
+    cout << "\nTraversal in forward direction \n";
+    while (node != NULL)
+    {
+        cout << " " << node->data << " ";
+        last = node;
+        node = node->next;
+    }
+    cout << "\nTraversal in reverse direction\n";
+    while (last != NULL)
+    {
+        cout << " " << last->data << " ";
+        last = last->prev;
+    }
+}
