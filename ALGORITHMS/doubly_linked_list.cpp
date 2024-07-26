@@ -5,6 +5,7 @@ public:
     Node *next;
     Node *prev;
 };
+
 void push(Node **head_ref, int new_data)
 {
     Node *new_node = new Node();
