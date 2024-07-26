@@ -37,6 +37,7 @@ void printList(Node *node)
         last = last->prev;
     }
 }
+
 int main()
 {
     Node *head = NULL;
