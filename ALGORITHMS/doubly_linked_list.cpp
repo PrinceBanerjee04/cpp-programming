@@ -19,6 +19,7 @@ void push(Node **head_ref, int new_data)
 
     (*head_ref) = new_node;
 }
+
 void printList(Node *node)
 {
     Node *last;
