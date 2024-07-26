@@ -35,3 +35,13 @@ void printList(Node *node)
         last = last->prev;
     }
 }
+int main()
+{
+    Node *head = NULL;
+    push(&head, 6);
+    push(&head, 7);
+    push(&head, 1);
+    cout << "Created DLL is : ";
+    printList(head);
+    return 0;
+}
