@@ -18,6 +18,7 @@ int main()
             cin >> a[i][j];
         }
     }
+    
     cout << "ORIGINAL MATRIX" << endl;
     for (i = 0; i < n; i++)
     {
