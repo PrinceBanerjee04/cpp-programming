@@ -15,6 +15,7 @@ int main()
         cout << "Enter element " << (i + 1) << " : ";
         cin >> a[i];
     }
+    
     cout << "ENTER ELEMENTS OF ARRAY2" << endl;
     for (int i = 0; i < m; i++)
     {
