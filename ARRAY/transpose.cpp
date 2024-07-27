@@ -7,6 +7,7 @@ int main()
     cout << "Enter array size :";
     cin >> n;
     int a[n][n], arr[n][n], i, j, k = 0;
+    
     for (i = 0; i < n; i++)
     {
        
