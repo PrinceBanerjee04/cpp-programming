@@ -10,6 +10,7 @@ int main()
         if(i+1<6)
         swap(arr[i],arr[i+1]);
     }
+    
     for(i=0;i<6;i++)
     {
         cout<<arr[i]<<" ";
