@@ -28,6 +28,7 @@ int main()
         }
         cout << "\n";
     }
+    
     cout<<"TRANSPOSE OF THE MATRIX : "<<endl;
     for(i=0;i<n;i++)
     {
