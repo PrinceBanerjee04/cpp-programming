@@ -14,6 +14,7 @@ int main()
     }
     sq=n*n;
     d=sq%(int)pow(10,c);
+    
     if(d==n)
     cout<<"AUTOMORPHIC NUMBER";
     else
