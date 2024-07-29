@@ -15,7 +15,6 @@ int main()
         d = (d << 1) | 1;
         n1 = n1 >> 1;
     }
-    
     int r = (~n) & d;
     cout<<r;
 }
