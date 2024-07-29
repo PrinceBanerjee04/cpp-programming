@@ -10,5 +10,6 @@ int main()
         cout << "BUZZ NUMBER ";
     else
         cout << "NOT A BUZZ NUMBER";
+    
     return 0;
 }
