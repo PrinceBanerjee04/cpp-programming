@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n, i, j, k, l;
-    cout << "Enter size of the pattern :- ";
+    cout << "Enter size of the pattern : ";
     cin >> n;
     for (i = 1; i <= n; i++)
     {
