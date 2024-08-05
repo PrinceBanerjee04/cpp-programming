@@ -1,4 +1,4 @@
-// USING AND
+// USING AND OPERATOR
 
 int main()
 {
