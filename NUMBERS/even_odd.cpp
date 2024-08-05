@@ -1,4 +1,5 @@
 // USING AND OPERATOR
+
 int main()
 {
     int n;
