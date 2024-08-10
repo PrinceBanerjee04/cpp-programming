@@ -38,6 +38,7 @@ void mergesort(int arr[], int lb, int ub)
     mergesort(arr, mid + 1, ub);
     merge(arr, lb, ub);
 }
+
 int main()
 {
     int n, i;
