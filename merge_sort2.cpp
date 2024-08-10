@@ -40,6 +40,7 @@ void mergesort(int a[], int lower, int upper)
         merge(a, lower, mid, mid + 1, upper);
     }
 }
+
 int main()
 {
     int n;
