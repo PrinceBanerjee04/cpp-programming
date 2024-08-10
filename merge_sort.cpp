@@ -28,6 +28,7 @@ void merge(int arr[], int lb, int ub)
     while (k < l2)
         arr[idx++] = b[k++];
 }
+
 void mergesort(int arr[], int lb, int ub)
 {
     if (lb >= ub)
