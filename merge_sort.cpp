@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 void merge(int arr[], int lb, int ub)
 {
     int mid = (lb + ub) / 2;
