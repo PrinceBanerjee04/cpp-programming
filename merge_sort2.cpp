@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 void merge(int a[], int l1, int u1, int l2, int u2)
 {
     int p, q, j, n;
