@@ -44,6 +44,7 @@ int main()
         cout << "Enter element " << (i + 1) << " : ";
         cin >> arr[i];
     }
+    
     cout << "GIVEN ARRAY : ";
     for (i = 0; i < n; i++)
     {
