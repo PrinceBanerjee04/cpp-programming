@@ -27,6 +27,7 @@ void quicksort(int arr[], int lb, int ub)
 {
     if (lb >= ub)
         return;
+    
     int mid = partition(arr, lb, ub);
     quicksort(arr, lb, mid - 1);
     quicksort(arr, mid + 1, ub);
