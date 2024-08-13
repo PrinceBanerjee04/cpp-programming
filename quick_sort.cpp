@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int partition(int arr[], int lb, int ub)
 {
     int pv = arr[lb], c = 0;
