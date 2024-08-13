@@ -22,7 +22,6 @@ int partition(int arr[], int lb, int ub)
     }
     return idx;
 }
-
 void quicksort(int arr[], int lb, int ub)
 {
     if (lb >= ub)
