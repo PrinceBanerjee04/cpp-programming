@@ -32,6 +32,7 @@ void quicksort(int arr[], int lb, int ub)
     quicksort(arr, lb, mid - 1);
     quicksort(arr, mid + 1, ub);
 }
+
 int main()
 {
     int n, i;
