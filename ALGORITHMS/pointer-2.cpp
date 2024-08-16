@@ -30,6 +30,7 @@ int main()
     cout << p << endl;
     cout << *p << endl;
     cout << "adress of pointer-p " << &p << endl;
+    
     cout << "\n";
 
     // CHARACTER ARRAY
