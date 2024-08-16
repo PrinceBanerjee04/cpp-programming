@@ -21,7 +21,6 @@ int main()
 
     cout << "3rd element " << arr[2] << endl;
     cout << "3rd element " << *(arr + 2) << endl;
-
     cout << "\n";
 
     int *p = &arr[0];
