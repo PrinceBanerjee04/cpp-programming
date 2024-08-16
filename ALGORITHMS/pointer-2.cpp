@@ -17,7 +17,6 @@ int main()
 
     cout << "Adds 1 to the 1st element " << *arr + 1 << endl;
     cout << "Adds 1 to the 1st element" << *(arr) + 1 << endl;
-
     cout << "\n";
 
     cout << "3rd element " << arr[2] << endl;
