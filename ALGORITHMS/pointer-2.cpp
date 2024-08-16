@@ -9,7 +9,6 @@ int main()
     cout << "address of a memory block is " << arr << endl;
     cout << "address of a memory block is " << &arr << endl;
     cout << "address of a memory block is " << &arr[0] << endl;
-
     cout << "\n";
 
     cout << "1st element " << arr[0] << endl;
