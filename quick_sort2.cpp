@@ -24,7 +24,6 @@ int partition(int a[], int lower, int upper)
     a[q] = t;
     return q;
 }
-
 void quicksort(int a[], int lower, int upper)
 {
     int i;
