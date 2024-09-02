@@ -11,7 +11,6 @@ int main()
     cout << **p2 << endl;
 
     cout << "\n";
-
     cout << &i << endl;
     cout << p << endl;
     cout << *p2 << endl;
